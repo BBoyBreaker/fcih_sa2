@@ -32,7 +32,7 @@ class Update extends Legacy{
         $query = str_replace(", ".$pat, " ", $query);                             
         $query .= " WHERE `id` = $id";
         
-        if(!$sql = mysql_query($query))
+        if(!$sql = mysqli_query($query))
         {
             throw new Exception("Error: can't excute the query");
         }

@@ -89,7 +89,7 @@ if(isset($_POST['submit']))
         $idofuser=$lo['id'];*/
                 
         $m=new Email();
-        $verificationLink = "view/active.php" ;
+        $verificationLink = "/view/active.php" ;
         $subject = "Verification Link | Legacy";
         $body = $m->create_body($username,$verificationCode,$verificationLink);
         $m->sendmail($email, $subject,$body);

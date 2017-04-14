@@ -11,8 +11,8 @@
         <div class="content">
             here the header
             <div class="contain_admin">
-            <?php include 'view/Header.php';
-                  include 'view/leftbarside.php';?>
+            <?php include '/view/Header.php';
+                  include '/view/leftbarside.php';?>
                 <div class="admin_contents">
                     <?php
                     include 'control/C_Appointment.php';

@@ -46,7 +46,7 @@ class Add extends legacy {
         
        $query = "INSERT INTO $this->tablename ($tblKeys) VALUES ($dataValues)";
         
-        if($sql = mysql_query($query))
+        if($sql = mysqli_query($query))
         {
             return TRUE;
         }

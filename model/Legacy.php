@@ -9,14 +9,15 @@
 class Legacy {
     
     
-    private $cxn;
+    protected $cxn;
     
     function connectToDb()
     {
-        require 'Database.php';
+        require 'DBconnection.php';
         //require_once MODELS.'Database.php';
-        $vars = "../include/vars.php";
-        $this->cxn = new Database($vars);
+        //$vars = "../include/vars.php";
+        $dbconnection = new DBconnection();
+        $this->cxn = $dbconnection->co;
     }
     
     function close()

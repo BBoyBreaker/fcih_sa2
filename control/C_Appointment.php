@@ -8,7 +8,7 @@
 
 if ($_POST OR @$_GET['action']) {
     if (isset($_GET['action']) AND $_GET['action'] == "add") {
-        include 'view/Appointment.php';
+        include '/view/Appointment.php';
     }
     if (isset($_POST['submit']) && $_POST['submit'] == "Add") {
 

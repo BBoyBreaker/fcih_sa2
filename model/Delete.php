@@ -19,7 +19,7 @@ class Delete extends Legacy {
     {
         $id = intval($id);
         $query = "DELETE FROM `$this->tablename` WHERE `id` = '$id' ";
-        if(!$sql= mysql_query($query))
+        if(!$sql= mysqli_query($query))
         {
             throw new Exception("Error: not deleted.");
         }

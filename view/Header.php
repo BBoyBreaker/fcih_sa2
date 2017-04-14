@@ -25,8 +25,8 @@ session_start();
                             
                             if(!isset($_SESSION['name']))
                             {
-                                echo '<a href="view/login.php">Sign in</a>';
-                                echo '<a href="view/Register.php"><button type="button">Join </button></a>';
+                                echo '<a href="/view/login.php">Sign in</a>';
+                                echo '<a href="/view/Register.php"><button type="button">Join </button></a>';
                             }
                         
                              else if(isset($_SESSION['name'])){
@@ -44,7 +44,7 @@ session_start();
                     if(isset($_SESSION['type'])){
                         if($_SESSION['type'] ==  1 ){
                        
-                        echo '<a href="view/admin_home.php">admin</a>';
+                        echo '<a href="/view/admin_home.php">admin</a>';
                     }
                     }
                     else {
@@ -53,10 +53,10 @@ session_start();
                         
  
                     ?>
-                    <li><a href="view/request.php">Sell/Rent</a></li>
+                    <li><a href="/view/request.php">Sell/Rent</a></li>
                     
-                    <li><a href="view/product.php">Gallery</a></li>
-                    <li><a href="view/about us.php">about us</a></li>
+                    <li><a href="/view/product.php">Gallery</a></li>
+                    <li><a href="/view/about us.php">about us</a></li>
                     <li><a href="">contact us</a></li>
                 </ul>
         </div>

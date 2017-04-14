@@ -6,7 +6,7 @@ class requestControl{
 /*
 if(!isset($_SESSION['name']))
 {
-    echo '<p class="error">Please<a href="WWW/view/login.php">LOGIN</a> First </p>';
+    echo '<p class="error">Please<a href="/view/login.php">LOGIN</a> First </p>';
     exit();
 }
 else

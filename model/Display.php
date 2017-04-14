@@ -19,15 +19,15 @@ class Display extends Legacy {
     function getAllData()
     {
          $query = "SELECT * FROM `$this->tablename` ORDER BY `id` ASC";   
-         if (!$sql = mysql_query($query)) {
+         if (!$sql = mysqli_query($this->cxn,$query)) {
             throw new Exception("Error: Can not excute the query.");
         } else {
-            $num = mysql_num_rows($sql);
+            $num = mysqli_num_rows($sql);
             if($num>0)
             {
                 for($i=0; $i<$num; $i++)
                 {
-                    $data[$i] = mysql_fetch_array($sql);
+                    $data[$i] = mysqli_fetch_array($sql);
                 }                    
             }
         }
@@ -38,12 +38,12 @@ class Display extends Legacy {
 
         $query = "SELECT * FROM `$this->tablename` ORDER BY `id` DESC LIMIT 1";
 
-        if (!$sql = mysql_query($query)) {
+        if (!$sql = mysqli_query($query)) {
             throw new Exception("Error: Can not excute the query..");
         } else {
-            $num = mysql_num_rows($sql); // 1            
+            $num = mysqli_num_rows($sql); // 1            
             while ($num > 0) {
-                $data = mysql_fetch_array($sql);
+                $data = mysqli_fetch_array($sql);
                 $num--;
             }
         }
@@ -55,12 +55,12 @@ class Display extends Legacy {
         $id = intval($id);
         
         $query = "SELECT * FROM `$this->tablename` WHERE `id`= $id";
-         if (!$sql = mysql_query($query)) {
+         if (!$sql = mysqli_query($query)) {
             throw new Exception("Error: Can not excute the query...");
         } else {
-            $num = mysql_num_rows($sql);
+            $num = mysqli_num_rows($sql);
             while ($num > 0) {
-                $this->recData = mysql_fetch_array($sql);
+                $this->recData = mysqli_fetch_array($sql);
                 $num--;
             }
         }
@@ -73,15 +73,15 @@ class Display extends Legacy {
         $id = intval($id);
         
         $query = "SELECT * FROM `$this->tablename` WHERE `$column`= $id ORDER By `id` ASC";
-         if (!$sql = mysql_query($query)) {
+         if (!$sql = mysqli_query($query)) {
             throw new Exception("Error: Can not excute the query...");
         } else {
-            $num = mysql_num_rows($sql);
+            $num = mysqli_num_rows($sql);
             if($num>0)
             {
                 for($i=0; $i<$num; $i++)
                 {
-                    $data[$i] = mysql_fetch_array($sql);                      
+                    $data[$i] = mysqli_fetch_array($sql);                      
                 }                    
             }
         }
