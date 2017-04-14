@@ -1,0 +1,27 @@
+
+
+.contain_report{
+    width: 900px;
+   
+    height: 900px;
+    
+    
+}
+.report{
+    width: 500px;
+    
+    margin: auto;
+    height: 600px;
+    margin-top: 200px;
+}
+.report > div{
+    border: 1px solid;
+    border-radius: 8px;
+    width: 200px;
+    margin: 20px;
+    padding: 2px;
+    float: left;
+    text-align: center;
+    font-size: x-large;
+    
+}

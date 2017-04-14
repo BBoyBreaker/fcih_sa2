@@ -1,0 +1,200 @@
+
+
+/* start  Home Page  /...................../*/
+body{
+    height: 5666px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    padding-bottom: 0;
+}
+body{margin:0px;}
+.header .container{border-bottom: 2px groove; overflow: hidden;}
+/* start header ........./*/
+.header{
+    padding: .5px;
+    background-image: url('../images/living_room_3d_model-wallpaper-1366x768.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    margin:0px auto;
+}
+.header .navbar{height: 45px; margin:0;}
+.header .navbar ul{
+    color: white ;
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+.header .navbar ul li{float: left; padding: 10px;}
+.header .join {
+    float: right;
+    height: 45px;
+}
+.header .join a{text-decoration: none; font-size: 18px; color: white}
+ button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color:red;
+    color: white;
+}
+.slider{height: 600px;}
+.slider .intro {
+    padding-top: 50px;
+    color: red;
+    text-align: center;}
+
+
+/* end header .........../*/
+
+/* start search/*/
+.search{
+    padding-top: 50px;
+    width: 700px;
+    margin: auto;
+}
+.search_work select{
+    padding: 20px 20px;
+}
+.search_work input[type=search]{
+    width: 70%;
+    background-image: url('../images/toolbar_find.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    padding-left: 40px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.search_work input[type=submit]{
+    padding: 20px 20px;
+    
+}
+/* end header   /*/
+/* start why.................................. */
+.why{
+    padding-top: 12px;
+    width: 100%;
+    height: 450px;
+    background-color: #ffffff;
+}
+.why .cont{
+   overflow: hidden;
+   padding-left: 100px;
+}
+.cont .all_homes{
+    width: 33.333333%;
+    float: left;
+}
+.cont .why_legacy{
+    
+width: 33.333333%;
+float: left
+}
+.cont .million{
+    width: 33.333333%;
+    float: left
+}
+.why .cont .cont2{
+    height: 460px;
+    width: 350px;
+    border: groove white 1Px;  ;
+}
+.why #p{ height: 60px;}
+.why #p p{ font-size: 25px;text-align: center;}
+.why img{
+    height: 300px;
+    width: 350px;;
+}
+.cont p{height: 90px; width: 350px; font-size: 16px; padding: 8px;}
+.cont a{text-decoration: none ;color: red ; padding-left: 10px;}
+.cont a:hover{color:#ff6666}
+
+/* End home page /............................*/
+
+#first_header{
+   height: 50px;
+   list-style: none;
+   border-bottom: groove ;
+   border-color: red;
+   border-width: 2px;
+}
+#first_header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #006699;
+}
+#ima{
+    float: left;
+    list-style: none;
+}
+
+#logo{
+    color: #3366ff;
+    padding-top: 15px;
+    float: left;
+    width: 45%;
+    height: 60px;
+    border-bottom: groove;
+    border-color: #ccccff;
+    border-width: 1px;
+    font-size: 25px;
+    
+}
+#logo h2 span{color: #ff3300;}
+#header{
+    float: right;
+    padding-top: 15px;
+    width: 55%;
+    height: 60px;
+    border-bottom: groove;
+    border-color: #ccccff;
+    border-width: 1px;
+}
+#header a{
+    
+    list-style: none;
+    font-family: sans-serif ;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0099ff;
+    margin: 7px;
+    
+}
+#header a :hover{
+    color: #ff0000;
+}
+#register{
+    width: 30%;
+    list-style: none;
+    float: right;
+}
+#register a :hover{
+    padding: 0;
+}
+#background{
+    border: 3px;
+    color: #006699;
+    width: 50%;
+    height: 20px;
+    margin: 50px;
+}
+#background input{
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+#sub{
+    background-color:#ccccff;
+}
+textarea{
+    width:350px;
+    height: 150px;
+    border-radius: 10px;
+    
+}

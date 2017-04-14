@@ -1,0 +1,550 @@
+/* start  Home Page  /...................../*/
+.intro button{
+    background-color: #009933;
+    color: #ffffff;
+    border: none;
+    width: 350px;
+    height: 50px;
+}
+.intro button :hover{
+    background-color: #00ff00;
+    color: #ccffcc;
+}
+.error{
+    color:red;
+    font-size: 15px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+body{margin:0px;}
+.header1 .container{border-bottom: 2px groove;}
+/* start header ........./*/
+.header1{
+    padding: 8px;
+    margin:0px auto;
+}
+
+.header1 .navbar{height: 45px; margin:0;}
+.header1 .navbar ul{
+    color: white ;
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+.header1 .navbar ul li{float: left; padding: 10px;}
+.header1 .join {
+    float: right;
+    height: 45px;
+    
+}
+.header1 .join a{text-decoration: none; font-size: 18px; color: blue}
+ .header1 .join button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color:green;
+    color: blue;
+}
+
+
+
+.header .container{border-bottom: 2px groove;}
+.header{
+    padding: 8px;
+    background-image: url('../images/living_room_3d_model-wallpaper-1366x768.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    margin:0px auto;
+}
+
+.header .navbar{height: 45px; margin:0;}
+.header .navbar ul{
+    color: #009900 ;
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+.header .navbar ul li{float: left; padding: 10px;}
+.header .join {
+    float: right;
+    height: 45px;
+}
+.header .join a{text-decoration: none; font-size: 18px; color: white}
+ .header .join button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color:green;
+    color: white;
+}
+.slider{height: 600px;}
+.slider .intro {
+    font-size: 25px;
+    font-family: monospace; 
+    padding-top: 50px;
+    color: green;
+    text-align: center;}
+
+
+/* end header .........../*/
+
+/* start search/*/
+.search{
+    padding-top: 50px;
+    width: 700px;
+    margin: auto;
+}
+.search_work select{
+    padding: 20px 20px;
+}
+.search_work input[type=search]{
+    width: 70%;
+    background-image: url('../images/toolbar_find.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    padding-left: 40px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.search_work input[type=submit]{
+    padding: 20px 20px;
+    
+}/*/      end search */
+/* start why */
+.why{
+    padding-top: 12px;
+    width: 100%;
+    height: 450px;
+    background-color: #ffffff;
+}
+.why .cont{
+   overflow: hidden;
+   padding-left: 100px;
+}
+.cont .all_homes{
+    width: 33.333333%;
+    float: left;
+}
+.cont .why_legacy{
+    
+width: 33.333333%;
+float: left
+}
+.cont .million{
+    width: 33.333333%;
+    float: left
+}
+.why .cont .cont2{
+    height: 460px;
+    width: 350px;
+    border: groove white 1Px;  ;
+}
+.why #p{ height: 60px;}
+.why #p p{ font-size: 25px;text-align: center;}
+.why img{
+    height: 300px;
+    width: 350px;;
+}
+.cont p{height: 90px; width: 350px; font-size: 16px; padding: 8px;}
+.cont a{text-decoration: none ;color: green ; padding-left: 10px;}
+.cont a:hover{color:#33ff33}
+/* end why */
+/* End home page /............................*/
+
+#first_header{
+   height: 50px;
+   list-style: none;
+   border-bottom: groove ;
+   border-color: red;
+   border-width: 2px;
+}
+#first_header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #006699;
+}
+#ima{
+    float: left;
+    list-style: none;
+}
+
+#logo{
+    color: #3366ff;
+    padding-top: 15px;
+    float: left;
+    width: 45%;
+    height: 60px;
+    border-bottom: groove;
+    border-color: #ccccff;
+    border-width: 1px;
+    font-size: 25px;
+    
+}
+#logo h2 span{color: #ff3300;}
+#header{
+    float: right;
+    padding-top: 15px;
+    width: 55%;
+    height: 60px;
+    border-bottom: groove;
+    border-color: #ccccff;
+    border-width: 1px;
+}
+.header a{
+    
+    list-style: none;
+    font-family: sans-serif ;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0099ff;
+    margin: 7px;
+    
+}
+.header a:hover{
+    color: green;
+    font-weight: bold;
+}
+.header1 a{
+    
+    list-style: none;
+    font-family: sans-serif ;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0099ff;
+    margin: 7px;
+    
+}
+.header1 a:hover{
+    color: green;
+    font-weight: bold;
+}
+#register{
+    width: 30%;
+    list-style: none;
+    float: right;
+}
+#register a :hover{
+    padding: 0;
+}
+/* start gallery ///////////////////////////////////////////////**/
+.gallery{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+    width: 80%;
+   
+}
+.gallery .image{
+    width: 40%;
+}
+.gallery .image img{
+    float: left;
+    width: 100%;
+    height:250px;
+    border: groove #00ff00 3px;
+}
+.gallery .ad{
+    margin: 30px;
+    height: 250px;
+    width: 60%;
+    float: left;
+   overflow: hidden;
+}
+.gallery .ad > div {
+    overflow: hidden;
+    float: left;
+    width: 33.3%;
+    min-height: 50px;
+}
+.gallery .ad button{
+    background-color: #99ff00;
+    color: white;
+    height: 100px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* admin page ...................................................../*/
+
+.header_admin{
+    height: 300px; background-color: #ffff33
+}
+.contain_admin{
+    width: 90%;
+    background-color: white;
+    min-height: 1085px;
+    max-height: 60000px;
+    margin: auto auto;
+    margin-top: 0;
+}
+.sidebar {
+	margin-top: 10px;
+	color: #999;
+	font-size: 0.95em;
+        width: 30%;
+        float: left;
+        border-right: ridge #ccccff 2px;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.sidebar li ul li {
+	display: block;
+	border-top: none;
+	padding: 7px 2px;
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 0.85em;
+}
+
+.sidebar li ul li li  {
+	font-size: 1.0em;
+	padding-left: 15px;
+}
+.sidebar li ul li ul {
+	margin-top: 10px;
+}
+
+.sidebar li ul.blocklist li li {
+	font-size: 1.0em;
+}
+.sidebar li ul.blocklist li li a,
+.sidebar li ul.blocklist li li a:hover {
+	padding-left: 29px;
+}
+.sidebar li ul.blocklist ul {
+	margin-top: 0;
+}
+.sidebar li.color-bg {
+    background-color:#ff0000;
+}
+.sidebar li.color-bg a {
+	 border-bottom-color: #FFFFFF;
+	color: #D1F1FF;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: sans-serif;
+}
+.sidebar li.color-bg a:hover {
+    color: #ffffff;
+}
+.sidebar li.color-bg h4 {
+	color: #D1F1FF;
+        padding-bottom: 0;
+	font-size: 1.4em;
+	letter-spacing: -1px;
+	padding: 0;
+        border-bottom: groove #f2f2f2 2.5px;
+}
+
+.sidebar ul li {
+	margin-bottom: 20px;
+	line-height: 1.9em;
+	padding: 10px;
+}
+
+.sidebar ul.blocklist li {
+	padding: 0;
+}
+.sidebar ul.blocklist li a,
+.sidebar ul.blocklist li a:hover {
+	border-bottom: 0;
+	display: block;
+	padding: 12px 10px;
+}
+
+.sidebar ul.blocklist li a.selected {
+    background:#006633;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+.sidebar ul.newslist li {
+	padding: 20px 0px;
+}
+
+.sidebar ul.newslist p {
+	margin-bottom: 0;
+}
+.sidebar ul.newslist span.newslist-date { 
+    background-color: #00ff66;
+	color: #fff;
+	padding: 5px 10px;
+}
+.admin_contents{
+    padding-top: 10px;
+    float: right;
+    width: 69%;
+    height: 1050px;
+}
+
+.footer-bottom {
+	padding: 15px;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+.footer-bottom p {
+	text-align: center;
+}
+
+.footer-bottom p, .footer-bottom p a {
+	color: red;
+	border-bottom-color: #666;
+}
+.content.admin_contents.left{
+    float: left;
+    width: 100%;
+}
+.content .admin_contents  .left.add_user{
+    width: 100%;
+}
+.admin_contents .left h1{
+    font-family:cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #33ff00;
+    text-shadow: 1px 1px 1px  #808000,-1px -1px  #808000;
+    margin-left: 20px
+}
+.admin_contents .left p{
+    color: #003300;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-left: 16px  
+}
+.admin_contents .left a button{
+    background-color: #009900;
+    color: #ffffff;
+  width: 270px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  transition: 1s;
+}
+.admin_contents .left a{
+  text-decoration: none;
+  font-family: kufi,serif;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  text-shadow: 1px 1px 1px  #808000,-1px -1px  #808000;
+}
+.left a button:hover{
+    background: #00cc00;
+    color: #99ff99;
+}
+.admin_contents .left .delete_user{
+    width: 100%;
+}
+.admin_contents .left .update_user{
+    width: 100%;
+}
+/*end admin page .........................................................................../*/
+/* start footer ......................... /*/
+.footer{
+  
+   height: 350px;                 
+   background-color: #003333;
+   display: block;
+}
+.footer .container{
+   width: 90%;
+}
+.footer .container .title{
+     
+}
+.footer .container .title h1{
+    text-align: center;
+}
+.footer .container .containimages {
+    
+}
+.footer .container .containimages > div {
+    float : left;
+    border: 0;
+    width: 23%;
+    padding: 6px;
+    margin: 6px ;
+   
+   /* border: 1px solid;*/                  
+     
+}
+.footer .container .containimages > div img {
+    width: 100%;
+    
+     margin-bottom: 15px;
+}
+.footer .container .containimages > div a {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff
+    /*border: 1px solid red;*/
+}
+    
+ /* End footer ......................... /*/
+/* add user .................../////////////////////*/
+.admin_contents h1{text-decoration: underline; color: #ff0000}
+.admin_contents form input {width: 100%; margin-top: 25px; padding: 12px 12px;}
+.admin_contents .first input {width: 100%; margin-top: 25px; padding: 12px 12px;}
+.admin_contents .checks input{width: 5%}
+.admin_contents input[type=button]{background-color:#3366ff; color:#ffffff; border: none}
+.admin_contents input[type=button]:hover{background-color: red; color: white}
+
+/* end add user .................../////////////////////*/
+/* start delete user .................../////////////////////*/
+.delete{ min-height: 50px; max-height: 36522px;}
+.delete button{width: 100%; margin-top: 50px; background-color: #3333ff; color: white; padding: 20px 20px; border: 2px solid; border-radius: 12px;}
+.delete button:hover{width: 100%; background-color:red;color: white}
+.delet_U input{width: 100%;margin-top: 18px; padding: 12px 12px;}
+.delet_U input[type=button]{width: 104%; margin-top: 30px; background-color: #3333ff; color: white }
+.delet_U input[type=button]:hover{background-color: red;}
+/* end delete user .................../////////////////////*/
+/*start update user ............................./*/
+.admin_contents{min-height: 1500px ; max-height: 52454252;}
+.update{ min-height: 50px; max-height: 36522px;}
+.update button{width: 100%; margin-top: 50px; background-color: #3333ff; color: white; padding: 20px 20px; border: 2px solid; border-radius: 12px;}
+.update button:hover{width: 100%; background-color:red;color: white}
+.update_U input{width: 100%;margin-top: 18px; padding: 12px 12px;}
+.update_U input[type=button]{width: 104%; margin-top: 30px; background-color: #3333ff; color: white }
+.update_U input[type=button]:hover{background-color: red;}
+.up .footer-bottom p{text-align: center}
+.up{width: 100%}
+.report_table{
+    
+}
+
+
+
+
+
+
+
+
+
+
+

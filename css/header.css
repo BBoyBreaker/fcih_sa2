@@ -1,0 +1,40 @@
+.header_a{
+    height: 400px;
+}
+.header_a{
+     background-image: url('../images/our-homes-banner.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.header_a .container{border-bottom: 2px groove; overflow: hidden;}
+
+.container{width: 85%; margin: auto}
+.header_a .logo_a{
+    padding-left: 50px;
+    float: left;
+}
+
+.header_a .navbar_a ul{
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+.header_a .navbar_a li{float: left;padding: 15px;}
+.header_a .navbar_a li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.header_a .navbar_a li a:hover{
+    color: #ff3300;
+}
+.header_a .header_p{
+    font-size: 90px;
+    font-family: monospace;
+    color: #ccffff;
+    text-align: center;
+    
+}
