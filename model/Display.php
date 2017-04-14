@@ -38,7 +38,7 @@ class Display extends Legacy {
 
         $query = "SELECT * FROM `$this->tablename` ORDER BY `id` DESC LIMIT 1";
 
-        if (!$sql = mysqli_query($query)) {
+        if (!$sql = mysqli_query($this->cxn,$query)) {
             throw new Exception("Error: Can not excute the query..");
         } else {
             $num = mysqli_num_rows($sql); // 1            
@@ -55,7 +55,7 @@ class Display extends Legacy {
         $id = intval($id);
         
         $query = "SELECT * FROM `$this->tablename` WHERE `id`= $id";
-         if (!$sql = mysqli_query($query)) {
+         if (!$sql = mysqli_query($this->cxn,$query)) {
             throw new Exception("Error: Can not excute the query...");
         } else {
             $num = mysqli_num_rows($sql);
@@ -73,7 +73,7 @@ class Display extends Legacy {
         $id = intval($id);
         
         $query = "SELECT * FROM `$this->tablename` WHERE `$column`= $id ORDER By `id` ASC";
-         if (!$sql = mysqli_query($query)) {
+         if (!$sql = mysqli_query($this->cxn,$query)) {
             throw new Exception("Error: Can not excute the query...");
         } else {
             $num = mysqli_num_rows($sql);
