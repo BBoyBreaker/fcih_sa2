@@ -10,7 +10,7 @@ class Add extends legacy {
     
     private $data;
     private $tablename;
-    private $cxn; 
+    protected $cxn; 
 
     public function __construct($data, $tablename)
     {
