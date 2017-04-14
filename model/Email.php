@@ -15,7 +15,7 @@ class Email
                 $htmlStr .= "<a href='{$link}' target='_blank' style='padding:1em; font-weight:bold; background-color:blue; color:#fff;'>VERIFY EMAIL</a><br /><br /><br />";
                  
                 $htmlStr .= "Kind regards,<br />";
-                $htmlStr .= "<a href='http://localhost/WWW/index.php' target='_blank'>Legacy</a><br />";
+                $htmlStr .= "<a href='index.php' target='_blank'>Legacy</a><br />";
                 return $htmlStr;
 
     }

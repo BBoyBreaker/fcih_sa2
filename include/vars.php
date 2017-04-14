@@ -1,9 +1,9 @@
 <?php 
 
-$host     = "vpn.arabianlolers.com";
-$user     = "fcih_sa2";
-$password = "P@ssw0rd";
-$database = "fcih_sa2";
+$host     = "sql8.freemysqlhosting.net";
+$user     = "sql8169156";
+$password = "3Z6VulnMEI";
+$database = "sql8169156";
 
 
 ?>

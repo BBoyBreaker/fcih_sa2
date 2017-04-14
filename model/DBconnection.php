@@ -9,10 +9,10 @@ class DBconnection {
     public  $co;
     public function __construct()
     {
-        $this->host="localhost";
-        $this->username="root";
-        $this->password="";
-        $this->db_name="legacy2";
+        $this->host="sql8.freemysqlhosting.net";
+        $this->username="sql8169156";
+        $this->password="3Z6VulnMEI";
+        $this->db_name="sql8169156";
         $this->database_connection = $this->database_connect();
     }
     
@@ -35,7 +35,7 @@ class DBconnection {
         $str = trim($str); // remove 
         $str = stripslashes($str);
         $str = strip_tags($str);
-        $str= mysql_real_escape_string($str);
+        $str= $this->co->real_escape_string($str);
         return $str;      
     }
     public function get_row($query)

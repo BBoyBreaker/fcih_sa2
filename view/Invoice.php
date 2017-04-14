@@ -70,7 +70,7 @@ include '../model/Display.php';
                              if($s==0)
                              {
                                  echo'done';
-                                 header('Location:http://localhost/WWW/index.php');
+                                 header('Location:index.php');
                              }
                              
                          }

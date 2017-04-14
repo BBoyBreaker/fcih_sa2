@@ -18,7 +18,7 @@
                     
            ";
         echo" <a href='Appointment.php'><img src='../resources/imgs/delete.png'></a>
-<a href='http://localhost/WWW/view/Invoice.php?'><img src='../resources/imgs/edit.png'></a>";
+<a href='view/Invoice.php?'><img src='../resources/imgs/edit.png'></a>";
         echo '</div>';
         echo '</div>';
        

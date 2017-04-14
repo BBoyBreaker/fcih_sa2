@@ -25,12 +25,12 @@ session_start();
                             
                             if(!isset($_SESSION['name']))
                             {
-                                echo '<a href="http://localhost/WWW/view/login.php">Sign in</a>';
-                                echo '<a href="http://localhost/WWW/view/Register.php"><button type="button">Join </button></a>';
+                                echo '<a href="view/login.php">Sign in</a>';
+                                echo '<a href="view/Register.php"><button type="button">Join </button></a>';
                             }
                         
                              else if(isset($_SESSION['name'])){
-                            echo '<a href="http://localhost/WWW/logout.php">Logout</a>';
+                            echo '<a href="logout.php">Logout</a>';
                             echo $_SESSION['name'];
                                                             }
                             ?>
@@ -38,13 +38,13 @@ session_start();
                        
         <div class="navbar">
                 <ul>
-                    <li><a href="http://localhost/WWW/index.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <?php
                                                
                     if(isset($_SESSION['type'])){
                         if($_SESSION['type'] ==  1 ){
                        
-                        echo '<a href="http://localhost/WWW/view/admin_home.php">admin</a>';
+                        echo '<a href="view/admin_home.php">admin</a>';
                     }
                     }
                     else {
@@ -53,10 +53,10 @@ session_start();
                         
  
                     ?>
-                    <li><a href="http://localhost/WWW/view/request.php">Sell/Rent</a></li>
+                    <li><a href="view/request.php">Sell/Rent</a></li>
                     
-                    <li><a href="http://localhost/WWW/view/product.php">Gallery</a></li>
-                    <li><a href="http://localhost/WWW/view/about us.php">about us</a></li>
+                    <li><a href="view/product.php">Gallery</a></li>
+                    <li><a href="view/about us.php">about us</a></li>
                     <li><a href="">contact us</a></li>
                 </ul>
         </div>
